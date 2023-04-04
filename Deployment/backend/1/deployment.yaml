@@ -59,7 +59,7 @@ spec:
           imagePullPolicy: IfNotPresent
           terminationMessagePolicy: File
          # Update with your image name
-         image: 'docker pull quay.io/asafy/backend-app:v1'
+         image: 'quay.io/asafy/backend-app:v1'
          #
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
