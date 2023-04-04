@@ -16,5 +16,5 @@ configMapGenerator:
     - API_URL="Hello Red Hat!!!!!!!!"
 - name: app-config
   files:
-  - frontend/conf/default.conf
-  - frontend/conf/entrypoint.sh
+  - 'frontend/conf/default.conf'
+  - 'frontend/conf/entrypoint.sh'
